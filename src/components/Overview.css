@@ -1,0 +1,28 @@
+.overview-container h1 {
+  font-size: 20px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.stat-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  flex: 1 1 180px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.stat-label { color: #6b7280; font-size: 14px; }
+.stat-value { font-size: 32px; font-weight: 700; color: #111827; }
+.stat-card.pass .stat-value { color: #03543f; }
+.stat-card.fail .stat-value { color: #9b1c1c; }

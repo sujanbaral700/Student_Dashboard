@@ -1,0 +1,16 @@
+.app-container {
+  min-height: 100vh;
+  position: relative;
+  background-color: #f3f4f6;
+}
+
+.content-wrapper {
+  margin-left: 250px;        /* leave room for the fixed sidebar */
+  width: calc(100% - 250px);
+  padding: 30px 30px 90px;   /* bottom padding keeps content clear of the footer */
+}
+
+.footer-content {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+}
